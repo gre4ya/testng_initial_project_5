@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import pages.TechGlobalFrontendTestingHomePage;
 import pages.TechGlobalLoginFormPage;
 import utilities.ConfigReader;
-import utilities.Waiter;
 
 public class TechGlobalLoginFormTest extends TechGlobalBase{
 
@@ -84,7 +83,7 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
         techGlobalLoginFormPage.submitButton.click();
         Assert.assertTrue(techGlobalLoginFormPage.confirmationMessage.isDisplayed());
         Assert.assertEquals(techGlobalLoginFormPage.confirmationMessage.getText(),
-                "A link to reset your password has been sent to your email address");
+                "A link to reset your password has been sent to your email address.");
     }
     @Test(priority = 6, description = "Validate login with invalid username")
     public void validateLoginWithInvalidUsername(){
