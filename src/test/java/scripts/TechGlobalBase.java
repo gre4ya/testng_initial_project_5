@@ -29,4 +29,5 @@ public class TechGlobalBase {
     public void teardown(){
         Driver.quitDriver();
     }
+
 }

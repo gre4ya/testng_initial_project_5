@@ -18,5 +18,4 @@ public class TechGlobalBasePage {
     public List<WebElement> headerDropDownOptions;
 
 
-
 }
