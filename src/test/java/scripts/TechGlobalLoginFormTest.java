@@ -59,14 +59,55 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
     @Test(priority = 3, description = "Validate Login and Logout functionalities with valid credentials")
     public void validateValidLoginAndLogout(){
         loginWithValidCredentials();
+
         techGlobalLoginFormPage.logoutButton.click();
         Assert.assertTrue(driver.findElement(By.xpath("//*[text()='Login Form']")).isDisplayed());
     }
-    @Test
-    public void validateForgotPasswordAndResetPasswordPages(){
+    @Test(priority = 4, description = "Validate forgot password link and reset password page")
+    public void validateForgotPasswordAndResetPasswordPage(){
         techGlobalLoginFormPage.forgotPassword.click();
 
+        Assert.assertTrue(techGlobalLoginFormPage.resetPasswordHeader.isDisplayed());
+        Assert.assertEquals(techGlobalLoginFormPage.resetPasswordHeader.getText(), "Reset Password");
+
+        Assert.assertTrue(techGlobalLoginFormPage.resetPasswordLabel.isDisplayed());
+        Assert.assertEquals(techGlobalLoginFormPage.resetPasswordLabel.getText(),
+                "Enter your email address and we'll send you a link to reset your password.");
+
+        Assert.assertTrue(techGlobalLoginFormPage.resetPasswordInput.isDisplayed());
+        Assert.assertTrue(techGlobalLoginFormPage.submitButton.isDisplayed());
     }
+    @Test(priority = 5, description = "Validate Reset Password functionality")
+    public void validateResetPasswordLink(){
+        techGlobalLoginFormPage.forgotPassword.click();
+        techGlobalLoginFormPage.resetPasswordInput.sendKeys(ConfigReader.getProperty("email"));
+        techGlobalLoginFormPage.submitButton.click();
+        Assert.assertTrue(techGlobalLoginFormPage.confirmationMessage.isDisplayed());
+        Assert.assertEquals(techGlobalLoginFormPage.confirmationMessage.getText(),
+                "A link to reset your password has been sent to your email address");
+    }
+    @Test(priority = 6, description = "Validate login with invalid username")
+    public void validateLoginWithInvalidUsername(){
+        techGlobalLoginFormPage.usernameInput.sendKeys(ConfigReader.getProperty("invalidUsername"));
+        techGlobalLoginFormPage.passwordInput.sendKeys(ConfigReader.getProperty("password"));
+        techGlobalLoginFormPage.loginButton.click();
+        Assert.assertTrue(driver.findElement(By.xpath("//*[text()='Invalid Username entered!']")).isDisplayed());
+    }
+    @Test(priority = 7, description = "Validate login with invalid password")
+    public void validateLoginWithInvalidPassword(){
+        techGlobalLoginFormPage.usernameInput.sendKeys(ConfigReader.getProperty("username"));
+        techGlobalLoginFormPage.passwordInput.sendKeys(ConfigReader.getProperty("invalidPassword"));
+        techGlobalLoginFormPage.loginButton.click();
+        Assert.assertTrue(driver.findElement(By.xpath("//*[text()='Invalid Password entered!']")).isDisplayed());
+    }
+    @Test(priority = 8, description = "Validate login with invalid username and password")
+    public void validateLoginWithInvalidUsernameAndInvalidPassword(){
+        techGlobalLoginFormPage.usernameInput.sendKeys(ConfigReader.getProperty("invalidUsername"));
+        techGlobalLoginFormPage.passwordInput.sendKeys(ConfigReader.getProperty("invalidPassword"));
+        techGlobalLoginFormPage.loginButton.click();
+        Assert.assertTrue(driver.findElement(By.xpath("//*[text()='Invalid Username entered!']")).isDisplayed());
+    }
+
 
 
 

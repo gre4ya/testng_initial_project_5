@@ -23,13 +23,14 @@ public class TechGlobalLoginFormPage extends TechGlobalBasePage{
     public WebElement logoutButton;
     @FindBy(id = "forgot-password")
     public WebElement forgotPassword;
-
     @FindBy(id = "sub_heading")
     public WebElement resetPasswordHeader;
-
+    @FindBy(id = "submit")
+    public WebElement submitButton;
+    @FindBy(id = "confirmation_message")
+    public WebElement confirmationMessage;
     @FindBy(tagName = "label")
     public WebElement resetPasswordLabel;
-
     @FindBy(tagName = "input")
     public WebElement resetPasswordInput;
 
