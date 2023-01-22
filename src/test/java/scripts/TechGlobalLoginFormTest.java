@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TechGlobalFrontendTestingHomePage;
 import pages.TechGlobalLoginFormPage;
+import test_data.LoginTestData;
 import utilities.ConfigReader;
 
 public class TechGlobalLoginFormTest extends TechGlobalBase{
@@ -21,7 +22,7 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
 
     }
     public void loginWithValidCredentials(){
-        techGlobalLoginFormPage.usernameInput.sendKeys(ConfigReader.getProperty("username"));
+        techGlobalLoginFormPage.usernameInput.sendKeys(LoginTestData.getValidUsername());
         techGlobalLoginFormPage.passwordInput.sendKeys(ConfigReader.getProperty("password"));
         techGlobalLoginFormPage.loginButton.click();
     }
