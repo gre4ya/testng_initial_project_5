@@ -12,7 +12,7 @@ public class Driver {
 
     private Driver(){}
 
-    private static WebDriver getDriver(){
+    public static WebDriver getDriver(){
         if(driver == null){
             String browser = ConfigReader.getProperty("browser");
 
