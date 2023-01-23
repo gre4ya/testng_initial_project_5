@@ -52,7 +52,7 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
         Assert.assertEquals(techGlobalLoginFormPage.loginFormText.getText(), ExpectedTexts.loginForm);
     }
 
-    @Test(priority = 6, description = "Validate login with invalid username")
+    @Test(priority = 4, description = "Validate login with invalid username")
     public void validateLoginWithInvalidUsername(){
         Login.login(techGlobalLoginFormPage.usernameInput, techGlobalLoginFormPage.passwordInput,
                 LoginTestData.getInvalidUsername(), LoginTestData.getValidPassword(), techGlobalLoginFormPage.loginButton);
@@ -61,7 +61,7 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
         Assert.assertEquals(techGlobalLoginFormPage.invalid_username_message.getText(),
                 ExpectedTexts.loginFormInvalidUsernameErrorMessage);
     }
-    @Test(priority = 7, description = "Validate login with invalid password")
+    @Test(priority = 5, description = "Validate login with invalid password")
     public void validateLoginWithInvalidPassword(){
         Login.login(techGlobalLoginFormPage.usernameInput, techGlobalLoginFormPage.passwordInput,
                 LoginTestData.getValidUsername(), LoginTestData.getInvalidPassword(), techGlobalLoginFormPage.loginButton);
@@ -70,7 +70,7 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
         Assert.assertEquals(techGlobalLoginFormPage.invalid_password_message.getText(),
                 ExpectedTexts.loginFormInvalidPasswordErrorMessage);
     }
-    @Test(priority = 8, description = "Validate login with invalid username and password")
+    @Test(priority = 6, description = "Validate login with invalid username and password")
     public void validateLoginWithInvalidUsernameAndInvalidPassword(){
         Login.login(techGlobalLoginFormPage.usernameInput, techGlobalLoginFormPage.passwordInput,
                 LoginTestData.getInvalidUsername(), LoginTestData.getInvalidPassword(), techGlobalLoginFormPage.loginButton);

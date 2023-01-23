@@ -1,213 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="66464" started-at="2023-01-22T21:38:45 CST" finished-at="2023-01-22T21:39:52 CST">
+  <suite name="Regression" duration-ms="46291" started-at="2023-01-23T10:57:30 CST" finished-at="2023-01-23T10:58:17 CST">
     <groups>
     </groups>
-    <test name="All Functionalities" duration-ms="66464" started-at="2023-01-22T21:38:45 CST" finished-at="2023-01-22T21:39:52 CST">
+    <test name="All Functionalities" duration-ms="46291" started-at="2023-01-23T10:57:30 CST" finished-at="2023-01-23T10:58:17 CST">
       <class name="scripts.TechGlobalForgotPasswordTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@4667ae56]" name="setup" is-config="true" duration-ms="3117" started-at="2023-01-22T21:39:43 CST" finished-at="2023-01-22T21:39:46 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@754ba872]" name="setup" is-config="true" duration-ms="3442" started-at="2023-01-23T10:58:07 CST" finished-at="2023-01-23T10:58:11 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@4667ae56]" name="setPage" is-config="true" duration-ms="743" started-at="2023-01-22T21:39:46 CST" finished-at="2023-01-22T21:39:47 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@754ba872]" name="setPage" is-config="true" duration-ms="831" started-at="2023-01-23T10:58:11 CST" finished-at="2023-01-23T10:58:12 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateForgotPasswordAndResetPasswordPage()[pri:4, instance:scripts.TechGlobalForgotPasswordTest@4667ae56]" name="validateForgotPasswordAndResetPasswordPage" duration-ms="132" started-at="2023-01-22T21:39:47 CST" description="Validate forgot password link and reset password page" finished-at="2023-01-22T21:39:47 CST">
+        <test-method status="PASS" signature="validateForgotPasswordAndResetPasswordPage()[pri:4, instance:scripts.TechGlobalForgotPasswordTest@754ba872]" name="validateForgotPasswordAndResetPasswordPage" duration-ms="145" started-at="2023-01-23T10:58:12 CST" description="Validate forgot password link and reset password page" finished-at="2023-01-23T10:58:12 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateForgotPasswordAndResetPasswordPage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@4667ae56]" name="teardown" is-config="true" duration-ms="169" started-at="2023-01-22T21:39:47 CST" finished-at="2023-01-22T21:39:47 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@754ba872]" name="teardown" is-config="true" duration-ms="163" started-at="2023-01-23T10:58:12 CST" finished-at="2023-01-23T10:58:12 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@4667ae56]" name="setup" is-config="true" duration-ms="3154" started-at="2023-01-22T21:39:47 CST" finished-at="2023-01-22T21:39:50 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@754ba872]" name="setup" is-config="true" duration-ms="3460" started-at="2023-01-23T10:58:12 CST" finished-at="2023-01-23T10:58:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@4667ae56]" name="setPage" is-config="true" duration-ms="756" started-at="2023-01-22T21:39:50 CST" finished-at="2023-01-22T21:39:51 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@754ba872]" name="setPage" is-config="true" duration-ms="834" started-at="2023-01-23T10:58:15 CST" finished-at="2023-01-23T10:58:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateResetPasswordLink()[pri:5, instance:scripts.TechGlobalForgotPasswordTest@4667ae56]" name="validateResetPasswordLink" duration-ms="253" started-at="2023-01-22T21:39:51 CST" description="Validate Reset Password functionality" finished-at="2023-01-22T21:39:51 CST">
+        <test-method status="PASS" signature="validateResetPasswordLink()[pri:5, instance:scripts.TechGlobalForgotPasswordTest@754ba872]" name="validateResetPasswordLink" duration-ms="283" started-at="2023-01-23T10:58:16 CST" description="Validate Reset Password functionality" finished-at="2023-01-23T10:58:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateResetPasswordLink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@4667ae56]" name="teardown" is-config="true" duration-ms="158" started-at="2023-01-22T21:39:51 CST" finished-at="2023-01-22T21:39:52 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalForgotPasswordTest@754ba872]" name="teardown" is-config="true" duration-ms="157" started-at="2023-01-23T10:58:16 CST" finished-at="2023-01-23T10:58:17 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- scripts.TechGlobalForgotPasswordTest -->
       <class name="scripts.TechGlobalLoginFormTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setup" is-config="true" duration-ms="4689" started-at="2023-01-22T21:38:45 CST" finished-at="2023-01-22T21:38:50 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setup" is-config="true" duration-ms="6820" started-at="2023-01-23T10:57:30 CST" finished-at="2023-01-23T10:57:37 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setPage" is-config="true" duration-ms="857" started-at="2023-01-22T21:38:50 CST" finished-at="2023-01-22T21:38:51 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setPage" is-config="true" duration-ms="1807" started-at="2023-01-23T10:57:37 CST" finished-at="2023-01-23T10:57:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateLoginFormCard()[pri:1, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="validateLoginFormCard" duration-ms="270" started-at="2023-01-22T21:38:51 CST" description="Validate Login header" finished-at="2023-01-22T21:38:51 CST">
+        <test-method status="PASS" signature="validateLoginFormCard()[pri:1, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="validateLoginFormCard" duration-ms="264" started-at="2023-01-23T10:57:39 CST" description="Validate Login header" finished-at="2023-01-23T10:57:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFormCard -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="teardown" is-config="true" duration-ms="196" started-at="2023-01-22T21:38:51 CST" finished-at="2023-01-22T21:38:51 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="teardown" is-config="true" duration-ms="159" started-at="2023-01-23T10:57:39 CST" finished-at="2023-01-23T10:57:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setup" is-config="true" duration-ms="3243" started-at="2023-01-22T21:38:51 CST" finished-at="2023-01-22T21:38:54 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setup" is-config="true" duration-ms="4867" started-at="2023-01-23T10:57:39 CST" finished-at="2023-01-23T10:57:44 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setPage" is-config="true" duration-ms="657" started-at="2023-01-22T21:38:54 CST" finished-at="2023-01-22T21:38:55 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setPage" is-config="true" duration-ms="753" started-at="2023-01-23T10:57:44 CST" finished-at="2023-01-23T10:57:45 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateValidLogin()[pri:2, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="validateValidLogin" duration-ms="398" started-at="2023-01-22T21:38:55 CST" description="Validate Login functionality with valid credentials" finished-at="2023-01-22T21:38:55 CST">
+        <test-method status="PASS" signature="validateValidLogin()[pri:2, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="validateValidLogin" duration-ms="392" started-at="2023-01-23T10:57:45 CST" description="Validate Login functionality with valid credentials" finished-at="2023-01-23T10:57:45 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateValidLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="teardown" is-config="true" duration-ms="168" started-at="2023-01-22T21:38:55 CST" finished-at="2023-01-22T21:38:56 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="teardown" is-config="true" duration-ms="154" started-at="2023-01-23T10:57:45 CST" finished-at="2023-01-23T10:57:46 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setup" is-config="true" duration-ms="3145" started-at="2023-01-22T21:38:56 CST" finished-at="2023-01-22T21:38:59 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setup" is-config="true" duration-ms="3902" started-at="2023-01-23T10:57:46 CST" finished-at="2023-01-23T10:57:50 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setPage" is-config="true" duration-ms="696" started-at="2023-01-22T21:38:59 CST" finished-at="2023-01-22T21:38:59 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setPage" is-config="true" duration-ms="920" started-at="2023-01-23T10:57:50 CST" finished-at="2023-01-23T10:57:50 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateValidLoginAndLogout()[pri:3, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="validateValidLoginAndLogout" duration-ms="328" started-at="2023-01-22T21:38:59 CST" description="Validate Login and Logout functionalities with valid credentials" finished-at="2023-01-22T21:39:00 CST">
+        <test-method status="PASS" signature="validateValidLoginAndLogout()[pri:3, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="validateValidLoginAndLogout" duration-ms="566" started-at="2023-01-23T10:57:50 CST" description="Validate Login and Logout functionalities with valid credentials" finished-at="2023-01-23T10:57:51 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateValidLoginAndLogout -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="teardown" is-config="true" duration-ms="122" started-at="2023-01-22T21:39:00 CST" finished-at="2023-01-22T21:39:00 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="teardown" is-config="true" duration-ms="192" started-at="2023-01-23T10:57:51 CST" finished-at="2023-01-23T10:57:51 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setup" is-config="true" duration-ms="3219" started-at="2023-01-22T21:39:00 CST" finished-at="2023-01-22T21:39:03 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setup" is-config="true" duration-ms="3729" started-at="2023-01-23T10:57:51 CST" finished-at="2023-01-23T10:57:55 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setPage" is-config="true" duration-ms="699" started-at="2023-01-22T21:39:03 CST" finished-at="2023-01-22T21:39:04 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setPage" is-config="true" duration-ms="833" started-at="2023-01-23T10:57:55 CST" finished-at="2023-01-23T10:57:56 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateLoginWithInvalidUsername()[pri:6, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="validateLoginWithInvalidUsername" duration-ms="341" started-at="2023-01-22T21:39:04 CST" description="Validate login with invalid username" finished-at="2023-01-22T21:39:04 CST">
+        <test-method status="PASS" signature="validateLoginWithInvalidUsername()[pri:6, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="validateLoginWithInvalidUsername" duration-ms="388" started-at="2023-01-23T10:57:56 CST" description="Validate login with invalid username" finished-at="2023-01-23T10:57:56 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithInvalidUsername -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="teardown" is-config="true" duration-ms="133" started-at="2023-01-22T21:39:04 CST" finished-at="2023-01-22T21:39:04 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="teardown" is-config="true" duration-ms="160" started-at="2023-01-23T10:57:56 CST" finished-at="2023-01-23T10:57:56 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setup" is-config="true" duration-ms="3163" started-at="2023-01-22T21:39:04 CST" finished-at="2023-01-22T21:39:07 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setup" is-config="true" duration-ms="4220" started-at="2023-01-23T10:57:56 CST" finished-at="2023-01-23T10:58:01 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setPage" is-config="true" duration-ms="679" started-at="2023-01-22T21:39:07 CST" finished-at="2023-01-22T21:39:08 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setPage" is-config="true" duration-ms="1043" started-at="2023-01-23T10:58:01 CST" finished-at="2023-01-23T10:58:02 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateLoginWithInvalidPassword()[pri:7, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="validateLoginWithInvalidPassword" duration-ms="344" started-at="2023-01-22T21:39:08 CST" description="Validate login with invalid password" finished-at="2023-01-22T21:39:08 CST">
+        <test-method status="PASS" signature="validateLoginWithInvalidPassword()[pri:7, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="validateLoginWithInvalidPassword" duration-ms="472" started-at="2023-01-23T10:58:02 CST" description="Validate login with invalid password" finished-at="2023-01-23T10:58:02 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithInvalidPassword -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="teardown" is-config="true" duration-ms="129" started-at="2023-01-22T21:39:08 CST" finished-at="2023-01-22T21:39:09 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="teardown" is-config="true" duration-ms="270" started-at="2023-01-23T10:58:02 CST" finished-at="2023-01-23T10:58:02 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setup" is-config="true" duration-ms="3174" started-at="2023-01-22T21:39:09 CST" finished-at="2023-01-22T21:39:12 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setup" is-config="true" duration-ms="3585" started-at="2023-01-23T10:58:02 CST" finished-at="2023-01-23T10:58:06 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="setPage" is-config="true" duration-ms="737" started-at="2023-01-22T21:39:12 CST" finished-at="2023-01-22T21:39:12 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="setPage" is-config="true" duration-ms="896" started-at="2023-01-23T10:58:06 CST" finished-at="2023-01-23T10:58:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="FAIL" signature="validateLoginWithInvalidUsernameAndInvalidPassword()[pri:8, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="validateLoginWithInvalidUsernameAndInvalidPassword" duration-ms="30397" started-at="2023-01-22T21:39:12 CST" description="Validate login with invalid username and password" finished-at="2023-01-22T21:39:43 CST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Invalid Password entered!']"}
-  (Session info: chrome=109.0.5414.87)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Andrews-MacBook-Pro.local', ip: '2601:246:a00:3e70:0:0:0:9a40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '1.8.0_341'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/qv/t4vgk6w940q...}, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3e533b4d56da9762feb835e135b835dc
-*** Element info: {Using=xpath, value=//*[text()='Invalid Password entered!']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Invalid Password entered!']"}
-  (Session info: chrome=109.0.5414.87)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Andrews-MacBook-Pro.local', ip: '2601:246:a00:3e70:0:0:0:9a40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '1.8.0_341'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/qv/t4vgk6w940q...}, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3e533b4d56da9762feb835e135b835dc
-*** Element info: {Using=xpath, value=//*[text()='Invalid Password entered!']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy7.getText(Unknown Source)
-at scripts.TechGlobalLoginFormTest.validateLoginWithInvalidUsernameAndInvalidPassword(TechGlobalLoginFormTest.java:79)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="validateLoginWithInvalidUsernameAndInvalidPassword()[pri:8, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="validateLoginWithInvalidUsernameAndInvalidPassword" duration-ms="351" started-at="2023-01-23T10:58:07 CST" description="Validate login with invalid username and password" finished-at="2023-01-23T10:58:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithInvalidUsernameAndInvalidPassword -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@1a968a59]" name="teardown" is-config="true" duration-ms="143" started-at="2023-01-22T21:39:43 CST" finished-at="2023-01-22T21:39:43 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLoginFormTest@e25b2fe]" name="teardown" is-config="true" duration-ms="166" started-at="2023-01-23T10:58:07 CST" finished-at="2023-01-23T10:58:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

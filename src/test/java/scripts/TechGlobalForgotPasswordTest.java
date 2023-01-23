@@ -19,7 +19,7 @@ public class TechGlobalForgotPasswordTest extends TechGlobalBase{
         techGlobalFrontendTestingHomePage.clickOnCard(15);
         techGlobalLoginFormPage.forgotPassword.click();
     }
-    @Test(priority = 4, description = "Validate forgot password link and reset password page")
+    @Test(priority = 1, description = "Validate forgot password link and reset password page")
     public void validateForgotPasswordAndResetPasswordPage(){
         Assert.assertTrue(techGlobalForgotPasswordPage.resetPasswordHeader.isDisplayed());
         Assert.assertEquals(techGlobalForgotPasswordPage.resetPasswordHeader.getText(), "Reset Password");
@@ -31,7 +31,7 @@ public class TechGlobalForgotPasswordTest extends TechGlobalBase{
         Assert.assertTrue(techGlobalForgotPasswordPage.resetPasswordInput.isDisplayed());
         Assert.assertTrue(techGlobalForgotPasswordPage.submitButton.isDisplayed());
     }
-    @Test(priority = 5, description = "Validate Reset Password functionality")
+    @Test(priority = 2, description = "Validate Reset Password functionality")
     public void validateResetPasswordLink(){
         techGlobalForgotPasswordPage.resetPasswordInput.sendKeys(LoginTestData.getValidEmail());
         techGlobalForgotPasswordPage.submitButton.click();

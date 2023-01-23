@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Regression">
-              <span class="suite-name border-failed">Regression</span>
+              <span class="suite-name border-passed">Regression</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Regression" class="hide-methods failed suite-Regression"> (hide)</a> <!-- hide-methods failed suite-Regression -->
-                      <a href="#" panel-name="suite-Regression" class="show-methods failed suite-Regression"> (show)</a> <!-- show-methods failed suite-Regression -->
-                    </span>
-                    <div class="method-list-content failed suite-Regression">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="scripts.TechGlobalLoginFormTest" hash-for-method="validateLoginWithInvalidUsernameAndInvalidPassword">validateLoginWithInvalidUsernameAndInvalidPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Regression -->
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -136,6 +122,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="scripts.TechGlobalLoginFormTest" hash-for-method="validateLoginWithInvalidUsernameAndInvalidPassword">validateLoginWithInvalidUsernameAndInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Regression" title="scripts.TechGlobalForgotPasswordTest" hash-for-method="validateResetPasswordLink">validateResetPasswordLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -161,75 +152,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression" class="panel Regression">
-          <div class="suite-Regression-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">scripts.TechGlobalLoginFormTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateLoginWithInvalidUsernameAndInvalidPassword">
-                  </a> <!-- validateLoginWithInvalidUsernameAndInvalidPassword -->
-                  <span class="method-name">validateLoginWithInvalidUsernameAndInvalidPassword</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Invalid Password entered!&apos;]&quot;}
-  (Session info: chrome=109.0.5414.87)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Andrews-MacBook-Pro.local&apos;, ip: &apos;2601:246:a00:3e70:0:0:0:9a40%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;1.8.0_341&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/qv/t4vgk6w940q...}, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3e533b4d56da9762feb835e135b835dc
-*** Element info: {Using=xpath, value=//*[text()=&apos;Invalid Password entered!&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.getText(Unknown Source)
-	at scripts.TechGlobalLoginFormTest.validateLoginWithInvalidUsernameAndInvalidPassword(TechGlobalLoginFormTest.java:79)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Validate login with invalid username and password)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-failed -->
-          <div class="suite-Regression-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">scripts.TechGlobalForgotPasswordTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateForgotPasswordAndResetPasswordPage">
-                  </a> <!-- validateForgotPasswordAndResetPasswordPage -->
-                  <span class="method-name">validateForgotPasswordAndResetPasswordPage</span>
-                  <em>
-(Validate forgot password link and reset password page)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateResetPasswordLink">
-                  </a> <!-- validateResetPasswordLink -->
-                  <span class="method-name">validateResetPasswordLink</span>
-                  <em>
-(Validate Reset Password functionality)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression-class-passed -->
           <div class="suite-Regression-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -265,6 +187,15 @@ Session ID: 3e533b4d56da9762feb835e135b835dc
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="validateLoginWithInvalidUsernameAndInvalidPassword">
+                  </a> <!-- validateLoginWithInvalidUsernameAndInvalidPassword -->
+                  <span class="method-name">validateLoginWithInvalidUsernameAndInvalidPassword</span>
+                  <em>
+(Validate login with invalid username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="validateValidLogin">
                   </a> <!-- validateValidLogin -->
                   <span class="method-name">validateValidLogin</span>
@@ -279,6 +210,32 @@ Session ID: 3e533b4d56da9762feb835e135b835dc
                   <span class="method-name">validateValidLoginAndLogout</span>
                   <em>
 (Validate Login and Logout functionalities with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.TechGlobalForgotPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateForgotPasswordAndResetPasswordPage">
+                  </a> <!-- validateForgotPasswordAndResetPasswordPage -->
+                  <span class="method-name">validateForgotPasswordAndResetPasswordPage</span>
+                  <em>
+(Validate forgot password link and reset password page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResetPasswordLink">
+                  </a> <!-- validateResetPasswordLink -->
+                  <span class="method-name">validateResetPasswordLink</span>
+                  <em>
+(Validate Reset Password functionality)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -338,42 +295,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateLoginWithInvalidUsernameAndInvalidPassword')
+data.setCell(0, 1, 'validateValidLoginAndLogout')
 data.setCell(0, 2, 'scripts.TechGlobalLoginFormTest')
-data.setCell(0, 3, 30397);
+data.setCell(0, 3, 566);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateValidLogin')
+data.setCell(1, 1, 'validateLoginWithInvalidPassword')
 data.setCell(1, 2, 'scripts.TechGlobalLoginFormTest')
-data.setCell(1, 3, 398);
+data.setCell(1, 3, 472);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateLoginWithInvalidPassword')
+data.setCell(2, 1, 'validateValidLogin')
 data.setCell(2, 2, 'scripts.TechGlobalLoginFormTest')
-data.setCell(2, 3, 344);
+data.setCell(2, 3, 392);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateLoginWithInvalidUsername')
 data.setCell(3, 2, 'scripts.TechGlobalLoginFormTest')
-data.setCell(3, 3, 341);
+data.setCell(3, 3, 388);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateValidLoginAndLogout')
+data.setCell(4, 1, 'validateLoginWithInvalidUsernameAndInvalidPassword')
 data.setCell(4, 2, 'scripts.TechGlobalLoginFormTest')
-data.setCell(4, 3, 328);
+data.setCell(4, 3, 351);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateLoginFormCard')
-data.setCell(5, 2, 'scripts.TechGlobalLoginFormTest')
-data.setCell(5, 3, 270);
+data.setCell(5, 1, 'validateResetPasswordLink')
+data.setCell(5, 2, 'scripts.TechGlobalForgotPasswordTest')
+data.setCell(5, 3, 283);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateResetPasswordLink')
-data.setCell(6, 2, 'scripts.TechGlobalForgotPasswordTest')
-data.setCell(6, 3, 253);
+data.setCell(6, 1, 'validateLoginFormCard')
+data.setCell(6, 2, 'scripts.TechGlobalLoginFormTest')
+data.setCell(6, 3, 264);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'validateForgotPasswordAndResetPasswordPage')
 data.setCell(7, 2, 'scripts.TechGlobalForgotPasswordTest')
-data.setCell(7, 3, 132);
+data.setCell(7, 3, 145);
 window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Regression">
               </div> <!-- times-div-Regression -->
             </div> <!-- times-div -->
@@ -406,132 +363,130 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">4690 ms</span>
+                <span class="method-start">6820 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateLoginFormCard</span>
-                <span class="method-start">5547 ms</span>
+                <span class="method-start">8627 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">5820 ms</span>
+                <span class="method-start">8893 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">6021 ms</span>
+                <span class="method-start">9055 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">9264 ms</span>
+                <span class="method-start">13923 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateValidLogin</span>
-                <span class="method-start">9921 ms</span>
+                <span class="method-start">14676 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">10320 ms</span>
+                <span class="method-start">15068 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">10489 ms</span>
+                <span class="method-start">15223 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">13634 ms</span>
+                <span class="method-start">19125 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateValidLoginAndLogout</span>
-                <span class="method-start">14330 ms</span>
+                <span class="method-start">20045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">14659 ms</span>
+                <span class="method-start">20611 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">14782 ms</span>
+                <span class="method-start">20804 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">18001 ms</span>
+                <span class="method-start">24533 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateLoginWithInvalidUsername</span>
-                <span class="method-start">18700 ms</span>
+                <span class="method-start">25366 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">19041 ms</span>
+                <span class="method-start">25754 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">19175 ms</span>
+                <span class="method-start">25915 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">22338 ms</span>
+                <span class="method-start">30135 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateLoginWithInvalidPassword</span>
-                <span class="method-start">23017 ms</span>
+                <span class="method-start">31178 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">23361 ms</span>
+                <span class="method-start">31650 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">23491 ms</span>
+                <span class="method-start">31922 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">26665 ms</span>
+                <span class="method-start">35507 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">validateLoginWithInvalidUsernameAndInvalidPassword</span>
-                <span class="method-start">27402 ms</span>
+                <span class="method-start">36403 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">57808 ms</span>
+                <span class="method-start">36754 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.TechGlobalForgotPasswordTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">57953 ms</span>
+                <span class="method-start">36922 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">61070 ms</span>
+                <span class="method-start">40364 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateForgotPasswordAndResetPasswordPage</span>
-                <span class="method-start">61813 ms</span>
+                <span class="method-start">41195 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">61945 ms</span>
+                <span class="method-start">41340 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">62115 ms</span>
+                <span class="method-start">41504 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">65269 ms</span>
+                <span class="method-start">44965 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateResetPasswordLink</span>
-                <span class="method-start">66025 ms</span>
+                <span class="method-start">45799 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">66278 ms</span>
+                <span class="method-start">46082 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

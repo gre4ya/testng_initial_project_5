@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.047 sec <<< FAILURE! - in TestSuite
-validateLoginWithInvalidUsernameAndInvalidPassword(scripts.TechGlobalLoginFormTest)  Time elapsed: 30.407 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Invalid Password entered!']"}
-  (Session info: chrome=109.0.5414.87)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Andrews-MacBook-Pro.local', ip: '2601:246:a00:3e70:0:0:0:9a40%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '1.8.0_341'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/qv/t4vgk6w940q...}, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3e533b4d56da9762feb835e135b835dc
-*** Element info: {Using=xpath, value=//*[text()='Invalid Password entered!']}
-	at scripts.TechGlobalLoginFormTest.validateLoginWithInvalidUsernameAndInvalidPassword(TechGlobalLoginFormTest.java:79)
-
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.789 sec - in TestSuite
