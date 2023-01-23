@@ -3,18 +3,8 @@
 <suite name="Regression">
     <test name="All Functionalities">
         <classes>
-            <class name="scripts.TechGlobalLoginFormTest">
-                <methods>
-                    <include name="validateLoginFormCard"/>
-                    <include name="validateValidLogin"/>
-                    <include name="validateValidLoginAndLogout"/>
-                    <include name="validateForgotPasswordAndResetPasswordPage"/>
-                    <include name="validateResetPasswordLink"/>
-                    <include name="validateLoginWithInvalidUsername"/>
-                    <include name="validateLoginWithInvalidPassword"/>
-                    <include name="validateLoginWithInvalidUsernameAndInvalidPassword"/>
-                </methods>
-            </class>
+            <class name="scripts.TechGlobalLoginFormTest"/>
+            <class name="scripts.TechGlobalForgotPasswordTest"/>
         </classes>
     </test>
 </suite>

@@ -18,15 +18,6 @@ public class TechGlobalFrontendTestingHomePage extends TechGlobalBasePage{
         headerDropdown.click();
         headerDropDownOptions.get(0).click();
     }
-    public void clickOnCard(String cardText){
-        for (WebElement card : cards) {
-            if(card.getText().equals(cardText)){
-                card.click();
-                break;
-            }
-        }
-
-    }
     public void clickOnCard(int index){
         cards.get(index).click();
     }

@@ -1,15 +1,12 @@
 package scripts;
 
 import expected_texts.ExpectedTexts;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TechGlobalFrontendTestingHomePage;
 import pages.TechGlobalLoginFormPage;
 import test_data.LoginTestData;
-import utilities.ConfigReader;
 import utilities.Login;
 
 public class TechGlobalLoginFormTest extends TechGlobalBase{
@@ -20,14 +17,11 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
         techGlobalFrontendTestingHomePage = new TechGlobalFrontendTestingHomePage();
         techGlobalFrontendTestingHomePage.getFrontendTestingPage();
         techGlobalFrontendTestingHomePage.clickOnCard(15);
-
     }
     public void loginWithValidCredentials(){
         Login.login(techGlobalLoginFormPage.usernameInput, techGlobalLoginFormPage.passwordInput,
                 LoginTestData.getValidUsername(), LoginTestData.getValidPassword(), techGlobalLoginFormPage.loginButton);
     }
-
-
 
     @Test(priority = 1, description = "Validate Login header")
     public void validateLoginFormCard(){
@@ -85,11 +79,4 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
         Assert.assertEquals(techGlobalLoginFormPage.invalid_password_message.getText(),
                 ExpectedTexts.loginFormInvalidPasswordErrorMessage);
     }
-
-
-
-
-
-
-
 }
