@@ -8,17 +8,41 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">44,838</td><td></td><td></td></tr>
+<tr><th colspan="8">Regression</th></tr>
+<tr><td><a href="#t0">All Functionalities</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">66,464</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">scripts.TechGlobalLoginFormTest</td><td><a href="#m0">validateForgotPasswordAndResetPasswordPage</a></td><td rowspan="1">1674365630626</td><td rowspan="1">225</td></tr><tr class="passedeven"><td><a href="#m1">validateLoginFormCard</a></td><td rowspan="1">1674365613977</td><td rowspan="1">221</td></tr><tr class="passedeven"><td><a href="#m2">validateLoginWithInvalidPassword</a></td><td rowspan="1">1674365646072</td><td rowspan="1">424</td></tr><tr class="passedeven"><td><a href="#m3">validateLoginWithInvalidUsername</a></td><td rowspan="1">1674365640301</td><td rowspan="1">386</td></tr><tr class="passedeven"><td><a href="#m4">validateLoginWithInvalidUsernameAndInvalidPassword</a></td><td rowspan="1">1674365651141</td><td rowspan="1">431</td></tr><tr class="passedeven"><td><a href="#m5">validateResetPasswordLink</a></td><td rowspan="1">1674365635441</td><td rowspan="1">406</td></tr><tr class="passedeven"><td><a href="#m6">validateValidLogin</a></td><td rowspan="1">1674365619309</td><td rowspan="1">430</td></tr><tr class="passedeven"><td><a href="#m7">validateValidLoginAndLogout</a></td><td rowspan="1">1674365625236</td><td rowspan="1">426</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Functionalities &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">scripts.TechGlobalLoginFormTest</td><td><a href="#m0">validateLoginWithInvalidUsernameAndInvalidPassword</a></td><td rowspan="1">1674445152971</td><td rowspan="1">30397</td></tr><tr><th colspan="4">All Functionalities &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">scripts.TechGlobalForgotPasswordTest</td><td><a href="#m1">validateForgotPasswordAndResetPasswordPage</a></td><td rowspan="1">1674445187382</td><td rowspan="1">132</td></tr><tr class="passedeven"><td><a href="#m2">validateResetPasswordLink</a></td><td rowspan="1">1674445191594</td><td rowspan="1">253</td></tr><tr class="passedodd"><td rowspan="5">scripts.TechGlobalLoginFormTest</td><td><a href="#m3">validateLoginFormCard</a></td><td rowspan="1">1674445131116</td><td rowspan="1">270</td></tr><tr class="passedodd"><td><a href="#m4">validateLoginWithInvalidPassword</a></td><td rowspan="1">1674445148586</td><td rowspan="1">344</td></tr><tr class="passedodd"><td><a href="#m5">validateLoginWithInvalidUsername</a></td><td rowspan="1">1674445144269</td><td rowspan="1">341</td></tr><tr class="passedodd"><td><a href="#m6">validateValidLogin</a></td><td rowspan="1">1674445135490</td><td rowspan="1">398</td></tr><tr class="passedodd"><td><a href="#m7">validateValidLoginAndLogout</a></td><td rowspan="1">1674445139899</td><td rowspan="1">328</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">scripts.TechGlobalLoginFormTest#validateForgotPasswordAndResetPasswordPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">scripts.TechGlobalLoginFormTest#validateLoginFormCard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">scripts.TechGlobalLoginFormTest#validateLoginWithInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">scripts.TechGlobalLoginFormTest#validateLoginWithInvalidUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">scripts.TechGlobalLoginFormTest#validateLoginWithInvalidUsernameAndInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">scripts.TechGlobalLoginFormTest#validateResetPasswordLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>All Functionalities</h2><h3 id="m0">scripts.TechGlobalLoginFormTest#validateLoginWithInvalidUsernameAndInvalidPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Invalid Password entered!&apos;]&quot;}
+  (Session info: chrome=109.0.5414.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Andrews-MacBook-Pro.local&apos;, ip: &apos;2601:246:a00:3e70:0:0:0:9a40%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;1.8.0_341&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: /var/folders/qv/t4vgk6w940q...}, goog:chromeOptions: {debuggerAddress: localhost:50027}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e533b4d56da9762feb835e135b835dc
+*** Element info: {Using=xpath, value=//*[text()=&apos;Invalid Password entered!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.getText(Unknown Source)
+	at scripts.TechGlobalLoginFormTest.validateLoginWithInvalidUsernameAndInvalidPassword(TechGlobalLoginFormTest.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">scripts.TechGlobalForgotPasswordTest#validateForgotPasswordAndResetPasswordPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">scripts.TechGlobalForgotPasswordTest#validateResetPasswordLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">scripts.TechGlobalLoginFormTest#validateLoginFormCard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">scripts.TechGlobalLoginFormTest#validateLoginWithInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">scripts.TechGlobalLoginFormTest#validateLoginWithInvalidUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">scripts.TechGlobalLoginFormTest#validateValidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m7">scripts.TechGlobalLoginFormTest#validateValidLoginAndLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

@@ -1,9 +1,14 @@
-/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/utilities/ConfigReader.java
 /Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/utilities/Waiter.java
 /Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/pages/TechGlobalLoginFormPage.java
+/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/pages/TechGlobalBasePage.java
+/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/expected_texts/ExpectedTexts.java
+/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/utilities/Driver.java
+/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/pages/TechGlobalForgotPasswordPage.java
+/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/utilities/ConfigReader.java
+/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/utilities/Login.java
+/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/test_data/LoginTestData.java
 /Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/scripts/TechGlobalFrontendTestingHomeTest.java
 /Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/scripts/TechGlobalBase.java
+/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/scripts/TechGlobalForgotPasswordTest.java
 /Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/pages/TechGlobalFrontendTestingHomePage.java
-/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/pages/TechGlobalBasePage.java
-/Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/utilities/Driver.java
 /Users/gre4ya/IdeaProjects/testng_initial_project_5/src/test/java/scripts/TechGlobalLoginFormTest.java

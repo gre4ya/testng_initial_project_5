@@ -1,9 +1,14 @@
-utilities/Driver.class
+pages/TechGlobalForgotPasswordPage.class
 scripts/TechGlobalLoginFormTest.class
+test_data/LoginTestData.class
+pages/TechGlobalBasePage.class
+utilities/Waiter.class
+utilities/Driver.class
+utilities/Login.class
 pages/TechGlobalFrontendTestingHomePage.class
 utilities/ConfigReader.class
 pages/TechGlobalLoginFormPage.class
+expected_texts/ExpectedTexts.class
 scripts/TechGlobalFrontendTestingHomeTest.class
-pages/TechGlobalBasePage.class
-utilities/Waiter.class
 scripts/TechGlobalBase.class
+scripts/TechGlobalForgotPasswordTest.class

@@ -76,7 +76,7 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
                 LoginTestData.getInvalidUsername(), LoginTestData.getInvalidPassword(), techGlobalLoginFormPage.loginButton);
 
         Assert.assertTrue(techGlobalLoginFormPage.invalid_username_message.isDisplayed());
-        Assert.assertEquals(techGlobalLoginFormPage.invalid_password_message.getText(),
-                ExpectedTexts.loginFormInvalidPasswordErrorMessage);
+        Assert.assertEquals(techGlobalLoginFormPage.invalid_username_message.getText(),
+                ExpectedTexts.loginFormInvalidUsernameErrorMessage);
     }
 }
