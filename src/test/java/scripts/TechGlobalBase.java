@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.TechGlobalBasePage;
+import pages.TechGlobalForgotPasswordPage;
 import pages.TechGlobalFrontendTestingHomePage;
 import pages.TechGlobalLoginFormPage;
 import utilities.ConfigReader;
@@ -16,6 +17,7 @@ public class TechGlobalBase {
     TechGlobalBasePage techGlobalBasePage;
     TechGlobalLoginFormPage techGlobalLoginFormPage;
     TechGlobalFrontendTestingHomePage techGlobalFrontendTestingHomePage;
+    TechGlobalForgotPasswordPage techGlobalForgotPasswordPage;
 
 
     @BeforeMethod

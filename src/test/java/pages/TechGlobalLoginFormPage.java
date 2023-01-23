@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class TechGlobalLoginFormPage extends TechGlobalBasePage{
 
+
     public TechGlobalLoginFormPage(){}
 
     @FindBy(id = "main_heading")
@@ -23,17 +24,20 @@ public class TechGlobalLoginFormPage extends TechGlobalBasePage{
     public WebElement logoutButton;
     @FindBy(id = "forgot-password")
     public WebElement forgotPassword;
-    @FindBy(id = "sub_heading")
-    public WebElement resetPasswordHeader;
-    @FindBy(id = "submit")
-    public WebElement submitButton;
-    @FindBy(id = "confirmation_message")
-    public WebElement confirmationMessage;
-    @FindBy(tagName = "label")
-    public WebElement resetPasswordLabel;
-    @FindBy(tagName = "input")
-    public WebElement resetPasswordInput;
+    @FindBy(xpath = "//*[text()='You are logged in']")
+    public WebElement loginMessageText;
+    @FindBy(xpath = "//*[text()='Login Form']")
+    public WebElement loginFormText;
+    @FindBy(xpath = "//*[text()='Invalid Username entered!']")
+    public WebElement invalid_username_message;
+    @FindBy(xpath = "//*[text()='Invalid Password entered!']")
+    public WebElement invalid_password_message;
 
+
+//    public void getLoginFormTestingPage(){
+//        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
+//        techGlobalFrontendTestingHomePage.clickOnCard(15);
+//    }
 
 
 

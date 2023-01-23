@@ -8,11 +8,11 @@ import utilities.Driver;
 import java.util.List;
 
 public class TechGlobalFrontendTestingHomePage extends TechGlobalBasePage{
-    public TechGlobalFrontendTestingHomePage(){
-        PageFactory.initElements(Driver.getDriver(), this);}
+    public TechGlobalFrontendTestingHomePage(){super();}
 
     @FindBy(css = "div[id^='card']")
     public List<WebElement> cards;
+
 
     public void getFrontendTestingPage(){
         headerDropdown.click();
