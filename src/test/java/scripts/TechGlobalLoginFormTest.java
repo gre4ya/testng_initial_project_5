@@ -44,12 +44,15 @@ public class TechGlobalLoginFormTest extends TechGlobalBase{
         Assert.assertTrue(techGlobalLoginFormPage.loginMessageText.isDisplayed());
         Assert.assertEquals(techGlobalLoginFormPage.loginMessageText.getText(), ExpectedTexts.loginMessage);
         Assert.assertTrue(techGlobalLoginFormPage.logoutButton.isDisplayed());
+        techGlobalLoginFormPage.logoutButton.click();
+        Assert.assertTrue(techGlobalLoginFormPage.loginButton.isDisplayed());
     }
     @Test(priority = 3, description = "Validate Login and Logout functionalities with valid credentials")
     public void validateValidLoginAndLogout(){
         loginWithValidCredentials();
         Assert.assertTrue(techGlobalLoginFormPage.loginFormText.isDisplayed());
         Assert.assertEquals(techGlobalLoginFormPage.loginFormText.getText(), ExpectedTexts.loginForm);
+
     }
 
     @Test(priority = 4, description = "Validate login with invalid username")
