@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 public class TechGlobalLoginFormPage extends TechGlobalBasePage{
 
 
-    public TechGlobalLoginFormPage(){}
+    public TechGlobalLoginFormPage(){super();}
 
     @FindBy(id = "main_heading")
     public WebElement mainHeading;
@@ -33,11 +33,6 @@ public class TechGlobalLoginFormPage extends TechGlobalBasePage{
     @FindBy(xpath = "//*[text()='Invalid Password entered!']")
     public WebElement invalid_password_message;
 
-
-//    public void getLoginFormTestingPage(){
-//        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
-//        techGlobalFrontendTestingHomePage.clickOnCard(15);
-//    }
 
 
 

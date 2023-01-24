@@ -37,6 +37,7 @@ public class TechGlobalForgotPasswordTest extends TechGlobalBase{
     public void validateResetPasswordLink(){
         techGlobalForgotPasswordPage.resetPasswordInput.sendKeys(LoginTestData.getValidEmail());
         techGlobalForgotPasswordPage.submitButton.click();
+
         Assert.assertTrue(techGlobalForgotPasswordPage.passwordResetConfirmationMessage.isDisplayed());
         Assert.assertEquals(techGlobalForgotPasswordPage.passwordResetConfirmationMessage.getText(),
                 ExpectedTexts.resetPasswordConfirmationMessage);
