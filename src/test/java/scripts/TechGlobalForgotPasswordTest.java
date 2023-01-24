@@ -21,12 +21,14 @@ public class TechGlobalForgotPasswordTest extends TechGlobalBase{
     }
     @Test(priority = 1, description = "Validate forgot password link and reset password page")
     public void validateForgotPasswordAndResetPasswordPage(){
-        Assert.assertTrue(techGlobalForgotPasswordPage.resetPasswordHeader.isDisplayed());
-        Assert.assertEquals(techGlobalForgotPasswordPage.resetPasswordHeader.getText(), "Reset Password");
+        Assert.assertTrue(techGlobalForgotPasswordPage.resetPasswordHeading.isDisplayed());
+        Assert.assertEquals(techGlobalForgotPasswordPage.resetPasswordHeading.getText(), "Reset Password");
 
         Assert.assertTrue(techGlobalForgotPasswordPage.resetPasswordLabel.isDisplayed());
         Assert.assertEquals(techGlobalForgotPasswordPage.resetPasswordLabel.getText(),
                 ExpectedTexts.resetPasswordMessage);
+
+        Assert.assertTrue(techGlobalForgotPasswordPage.emailInput.isDisplayed());
 
         Assert.assertTrue(techGlobalForgotPasswordPage.resetPasswordInput.isDisplayed());
         Assert.assertTrue(techGlobalForgotPasswordPage.submitButton.isDisplayed());

@@ -7,7 +7,7 @@ public class TechGlobalForgotPasswordPage extends TechGlobalBasePage{
     public TechGlobalForgotPasswordPage(){super();}
 
     @FindBy(id = "sub_heading")
-    public WebElement resetPasswordHeader;
+    public WebElement resetPasswordHeading;
     @FindBy(id = "submit")
     public WebElement submitButton;
     @FindBy(id = "confirmation_message")
@@ -16,5 +16,7 @@ public class TechGlobalForgotPasswordPage extends TechGlobalBasePage{
     public WebElement resetPasswordLabel;
     @FindBy(tagName = "input")
     public WebElement resetPasswordInput;
+    @FindBy(id ="email")
+    public WebElement emailInput;
 
 }
